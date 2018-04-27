@@ -5,14 +5,14 @@ This is a simple script to download all [VWM](https://de.wikipedia.org/wiki/Verk
 The script uses the following endpoint:
 
 ```
-http://80.146.180.107/vmv2/XML_STOPLIST_REQUEST?tariffZones=1&coordOutputFormat=WGS84[DD.DDDDD]
+http://efa.vmv-mbh.de/vmv2/XML_STOPLIST_REQUEST?tariffZones=1&coordOutputFormat=WGS84[DD.DDDDD]
 ```
 
 The script produces CSV output in the following format:
 
 ```
 stop_id,stop_name,stop_lon,stop_lat,stop_code
-"44409041","Schwerin, Schwerin Görries",11.38539,53.61006,""
+"44409041","Schwerin, Schwerin GÃ¶rries",11.38539,53.61006,""
 ```
 
 # Prerequisites
